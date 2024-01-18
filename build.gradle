@@ -11,8 +11,11 @@ buildscript {
         classpath Dependencies.Plugins.android
         classpath Dependencies.Plugins.gradleVersions
         classpath Dependencies.Plugins.kotlin
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
     }
 }
+
+apply plugin: "org.sonarqube"
 
 allprojects {
     repositories {

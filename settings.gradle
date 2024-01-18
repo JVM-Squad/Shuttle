@@ -1,6 +1,6 @@
 include ':app',
         'libraries:glidepalette',
-        'libraries:ccl',
+        //'libraries:ccl',
         'libraries:navigation',
         'libraries:recycler-adapter',
         'libraries:multisheetview',
