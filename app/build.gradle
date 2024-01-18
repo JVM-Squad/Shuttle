@@ -352,4 +352,4 @@ play {
     serviceAccountCredentials = file('../deployment_keys.json')
 }
 
-apply plugin: Dependencies.BuildPlugins.playServices
+//apply plugin: Dependencies.BuildPlugins.playServices
