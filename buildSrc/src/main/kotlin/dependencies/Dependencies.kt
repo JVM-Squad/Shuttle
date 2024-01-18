@@ -92,7 +92,7 @@ object Dependencies {
         const val android = "com.android.tools.build:gradle:${Versions.androidGradlePlugin}"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
         const val dexcount = "com.getkeepsafe.dexcount:dexcount-gradle-plugin:${Versions.dexcountGradlePlugin}"
-        const val fabric = "io.fabric.tools:gradle:${Versions.fabricGradlePlugin}"
+//        const val fabric = "io.fabric.tools:gradle:${Versions.fabricGradlePlugin}"
         const val playPublisher = "com.github.triplet.play"
         const val gradleVersions = "com.github.ben-manes:gradle-versions-plugin:${Versions.gradleVersions}"
         const val playServices = "com.google.gms:google-services:${Versions.playServices}"

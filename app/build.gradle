@@ -13,7 +13,7 @@ buildscript {
     dependencies {
         classpath Dependencies.Plugins.android
         classpath Dependencies.Plugins.dexcount
-        classpath Dependencies.Plugins.fabric
+//        classpath Dependencies.Plugins.fabric
     }
 }
 
@@ -27,7 +27,7 @@ plugins {
 }
 
 apply plugin: Dependencies.BuildPlugins.dexCount
-apply plugin: Dependencies.BuildPlugins.fabric
+//apply plugin: Dependencies.BuildPlugins.fabric
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }

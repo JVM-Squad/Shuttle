@@ -42,7 +42,7 @@ import com.squareup.leakcanary.RefWatcher;
 import com.uber.rxdogtag.RxDogTag;
 import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication;
-import io.fabric.sdk.android.Fabric;
+//import io.fabric.sdk.android.Fabric;
 import io.reactivex.Completable;
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
@@ -118,11 +118,11 @@ public class ShuttleApplication extends DaggerApplication {
                 .disabled(BuildConfig.DEBUG)
                 .build();
 
-        Fabric.with(this,
-                new Crashlytics.Builder()
-                        .core(crashlyticsCore)
-                        .answers(new Answers())
-                        .build());
+//        Fabric.with(this,
+//                new Crashlytics.Builder()
+//                        .core(crashlyticsCore)
+//                        .answers(new Answers())
+//                        .build());
 
         // Firebase
         FirebaseApp.initializeApp(this);
